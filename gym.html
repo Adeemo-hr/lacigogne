@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="gym.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>lacigone</title>
+</head>
+<body>
+    <section class="main">
+        <nav>
+            <a class="logo" href="home.html"><img src="img/logo.jpg" alt="photo"></a>
+            <div class="burger" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-bar">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="resturant.html">Resturant</a></li>
+                <li><a class="active" href="gym.html">Gym&Swim</a></li>
+                <li><a href="beauty.html">beauty</a></li>
+                <li><a href="home.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="main-heading">
+            <div class="main-text">
+                <h1>Gym&Swim</h1>
+                <p>We have professional coache's that 
+                can help you achieve you goals , with 
+                the newest method and machines , also we have
+                on the swimpool the best tools and the hot water to be 
+                proffesional</p>
+            </div>
+            <img src="img/img.2.webp" alt="photo">
+        </div>
+    </section>
+    <section class="features">
+        <h1>Our Subscriptions</h1>
+        <div class="feature-container">
+            <div class="feature-box">
+                <h2>Pack GYM</h2>
+                <h3>(4 Séances Par Semaine)</h3>
+                <div class="menu-text">
+                    <div class="menu-month">
+                        <p class="month">1-Mois</p>
+                        <p class="price">250dh</p>
+                    </div>
+                    <div class="menu-month">
+                        <p class="month">2-Mois</p>
+                        <p class="price">350dh</p>
+                    </div>
+                    <div class="menu-month">
+                        <p class="month">3-Mois</p>
+                        <p class="price">450dh</p>
+                    </div>
+                    <div class="menu-month">
+                        <p class="month">6-Mois</p>
+                        <p class="price">750dh</p>
+                    </div>
+                    <div class="menu-month">
+                        <p class="month">12-Mois</p>
+                        <p class="price">1200dh</p>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-box">
+                <h2>Pack SWIM</h2>
+                <h3>(3 Séances Par Semaine)</h3>
+                <div class="menu-text">
+                    <div class="menu-month">
+                        <p class="month">1-Mois</p>
+                        <p class="price">300dh</p>
+                    </div>
+                    <div class="menu-month">
+                        <p class="month">2-Mois</p>
+                        <p class="price">500dh</p>
+                    </div>
+                    <div class="menu-month">
+                        <p class="month">3-Mois</p>
+                        <p class="price">600dh</p>
+                    </div>
+                    <div class="menu-month">
+                        <p class="month">6-Mois</p>
+                        <p class="price" >1000dh</p>
+                    </div>
+                    <div class="menu-month">
+                        <p class="month">12-Mois</p>
+                        <p class="price"> 1700dh</p>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-box gym-box">
+                <h2>Pack GYM&SWIM</h2>
+                <h3>(4 Séances GYM 2 Séances SWIM Par Semaine)</h3>
+                <div class="menu-text">
+                    <div class="menu-month">
+                        <p class="month">1-Mois</p>
+                        <p class="price">300dh</p>
+                    </div>
+                    <div class="menu-month">
+                        <p class="month">2-Mois</p>
+                        <p class="price">500dh</p>
+                    </div>
+                    <div class="menu-month">
+                        <p class="month">3-Mois</p>
+                        <p class="price">600dh</p>
+                    </div>
+                    <div class="menu-month">
+                        <p class="month">6-Mois</p>
+                        <p class="price">1000dh</p>
+                    </div>
+                    <div class="menu-month">
+                        <p class="month">12-Mois</p>
+                        <p class="price">1700dh</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slider">
+        <div class="list">
+            <div class="item">
+                <img src="img/SwimPool.webp" alt="">
+            </div>
+            <div class="item">
+                <img src="img/menu.bg.avif" alt="">
+            </div>
+            <div class="item">
+                <img src="img/bg.ai.webp" alt="">
+            </div>
+            <div class="item">
+                <img src="img/00001.jpg" alt="">
+            </div>
+        </div>
+        <!-- button prev and next -->
+        <div class="buttons">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- dots (if 4imgs = 4dots) -->
+         <ul class="dots">
+            <li class="on"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+         </ul>
+    </section>
+    <section class="time">
+      <div class="title">
+        <h1>Planning D'ouveture</h1>
+        <h3>Salle de Sport / Piscine Chauffée</h3>
+      </div>
+      <div class="grid">
+        <div class="grid-container">
+            <div class="grid-item">Gym&Swim</div>
+            <div class="grid-item">Homme</div>
+            <div class="grid-item">femmes</div>
+            <div class="grid-item">Lundi & <br>Mercredi & <br> Jeudi</div>
+            <div class="grid-item">9:00 - 23:00</div>
+            <div class="grid-item">Mardi & <br>Jeudi </div>
+            <div class="grid-item">9:00 - 20:00</div> 
+            <div class="grid-item">Mardi & <br> Jeudi & <br> Samedi et dimanche</div>
+            <div class="grid-item">20:00 - 23:00 </div>
+            <div class="grid-item">Samedi et Dimanche </div>
+            <div class="grid-item">9:00 - 15:00</div> 
+        </div>
+        <div class="bot">
+            <h4>Piscine chauffée est réservé pour les enfants</h4>
+            <div class="bot-text">
+            <p>Mercredi: 15:00 à 19:30</p>
+            <p>Dimanche: 9:00 à 19:30</p>
+            </div>
+            <h5 class="bott">Piscine chauffée fermé dimanche à 20:00</h5>
+        </div>
+      </div>
+    </section>
+    
+
+    
+    
+    
+    <section class="footer"> 
+        <footer>
+            <div class="container">
+                <div class="sec abouts">
+                    <h2>About us</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Totam labore molestias laboriosam perferendis,
+                    commodi pariatur nihil atque maiores quod aliquid?</p>
+                    <ul class="sci">
+                        <li><a target="_blank" href="https://www.instagram.com/clublacigogne?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a target="_blank" href="https://www.facebook.com/clublacigogne"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+                <div class="sec quicklinks">
+                    <h2>Support</h2>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privact Policy</a></li>
+                        <li><a href="home.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="sec quicklinks">
+                    <h2>Links</h2>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="resturant.html">Resturant</a></li>
+                        <li><a href="gym.html">Gym&Swim</a></li>
+                        <li><a href="beauty.html">Beauty</a></li>
+                    </ul>
+                </div>
+                <div class="sec contacts">
+                    <h2>Contact</h2>
+                    <ul class="info">
+                        <li>
+                            <span><i class="fa-solid fa-phone"></i></span>
+                            <p>+212 8 08 64 24 90</p>
+                        </li>
+                        <li>
+                            <span><i class="fa-solid fa-envelope"></i></span>
+                            <p>lacigone.contact@gmail.com</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+ 
+        </footer>
+        <div class="copyrightText">
+            <p>Copyright &copy;2024 . All Right Reserved.</p>
+        </div>
+
+    </section>
+    <script src="gym.js"></script>
+</body>
+</html>
